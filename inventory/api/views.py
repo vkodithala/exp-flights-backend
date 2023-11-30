@@ -16,7 +16,6 @@ class ItemViewSet(viewsets.ViewSet):
     def retrieve(self, request, pk=None):
         queryset = Item.objects.all()
         item = get_object_or_404(queryset, pk=pk)
-        item.status = "Fulfilled"
         while item.prev.status != "Fulfilled":
             item.prev.status = "Fulfilled"
             item.prev.save()
