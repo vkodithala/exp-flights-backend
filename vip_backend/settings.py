@@ -48,7 +48,7 @@ INSTALLED_APPS = [
 ]
 
 CORS_ALLOWED_ORIGINS = [
-    'http://localhost:5173',
+    'https://github.gatech.edu/dashboard'
 ]
 
 MIDDLEWARE = [
