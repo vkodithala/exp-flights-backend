@@ -48,7 +48,7 @@ INSTALLED_APPS = [
 ]
 
 CORS_ALLOWED_ORIGINS = [
-    'https://github.gatech.edu/dashboard'
+    'https://github.gatech.edu/pages/experimental-flights/inventory_management/'
 ]
 
 MIDDLEWARE = [
